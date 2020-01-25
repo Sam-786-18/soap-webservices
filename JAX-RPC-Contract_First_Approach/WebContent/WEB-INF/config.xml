@@ -1,0 +1,3 @@
+<configuration xmlns="http://java.sun.com/xml/ns/jax-rpc/ri/config">
+<wsdl location ="WebContent/WEB-INF/Hello.Wsdl" packageName="com.nareshit.service"/>
+</configuration>

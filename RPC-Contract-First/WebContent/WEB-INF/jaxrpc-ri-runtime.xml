@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints xmlns='http://java.sun.com/xml/ns/jax-rpc/ri/runtime' version='1.0'>
+  <endpoint
+    name='hello'
+    interface='com.jaxrpc.client.Hello'
+    implementation='com.nt.service.HelloServices'
+    tie='com.jaxrpc.client.Hello_Tie'
+    model='/WEB-INF/model-rpc-enc.xml.gz'
+    wsdl='/WEB-INF/hello.wsdl'
+    service='{http://client.jaxrpc.com}HelloServices'
+    port='{http://client.jaxrpc.com}helloSOAPPort'
+    urlpattern='/demo'/>
+</endpoints>

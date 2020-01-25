@@ -1,0 +1,8 @@
+<webServices xmlns="http://java.sun.com/xml/ns/jax-rpc/ri/dd" version="1.0">
+<endpoint name="hello" interface="com.jaxrpc.client.Hello"
+implementation="com.nt.service.HelloServices"
+wsdl="/WEB-INF/hello.wsdl"
+model="/WEB-INF/model-rpc-enc.xml.gz">
+</endpoint>
+<endpointMapping endpointName="hello" urlPattern="/demo"/>
+</webServices>
